@@ -1,0 +1,35 @@
+/* stili generali pagina */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #083b4c;
+}
+
+.ms-container{
+    height: 100%;
+    width: 70%;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 70px;
+}
+
+/* stile square */
+
+.square{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% * 1/7 - 10px);
+    height: 80px;
+    background-color: #1389b2;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+}
